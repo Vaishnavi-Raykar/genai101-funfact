@@ -2,7 +2,7 @@
 
 Welcome to the Fun Facts Generator! This web application allows users to generate random fun facts, add their own facts, share them on Twitter, and add favourite fact. The application features a modern Neo Brutalist dark theme with interactive UI elements.
 
-## Live Link - [WEBSITE](https://genai101-funfact.vercel.app/)
+## Live Link - [WEBSITE](https://vaishnavi-raykar.github.io/genai101-funfact/)
 
 ## Features
 
