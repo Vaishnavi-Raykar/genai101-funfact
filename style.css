@@ -98,6 +98,15 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.favorites-section {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 20px;
+    display: none;
+}
+
 .button-container {
     display: flex;
     gap: 20px;
