@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Fun Facts Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="container">
+        <h1 class="title">
+            <span class="title-text">Fun Facts About Me!</span>
+            <span class="emoji">✨</span>
+        </h1>
+        <div class="card">
+            <div class="fact-wrapper">
+                <div id="fact-display">Click the button to see a fun fact!</div>
+                <div class="fact-number">Facts: <span id="fact-count">0</span></div>
+            </div>
+        </div>
+        <div class="button-container">
+            <button onclick="generateFact()" class="btn generate-btn">
+                <i class="fas fa-magic"></i> Generate Fact
+            </button>
+            <button onclick="shareOnTwitter()" class="btn share-btn">
+                <i class="fab fa-twitter"></i> Tweet This
+            </button>
+            <button onclick="toggleFavorite()" class="btn favorite-btn">
+                <i class="fas fa-heart"></i> Favorite
+            </button>
+        </div>
+        <div class="add-fact-container">
+            <div class="input-wrapper">
+                <input type="text" id="newFact" placeholder="Enter your new fun fact">
+                <button onclick="addNewFact()" class="btn add-btn">
+                    <i class="fas fa-plus"></i> Add Fact
+                </button>
+            </div>
+        </div>
+        <div class="favorites-section" id="favorites-section">
+            <h2>Favorite Facts</h2>
+            <div id="favorites-list" class="favorites-list"></div>
+        </div>
+        <div id="notification" class="notification"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
